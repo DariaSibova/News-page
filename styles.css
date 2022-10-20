@@ -36,3 +36,16 @@ img{
   justify-content: space-between;
   align-items: center;
 }
+.header-left{
+  svg {
+    max-height: 40px;
+    width:auto;
+  }
+}
+
+.header-middle{
+  display: none;
+  @media(min-width:1200px){
+    display:block
+  }
+}
